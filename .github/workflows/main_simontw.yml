@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'simontw'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dac1c32224db4a7fa2d8ca2163e27505 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dc6cc38c68674269917e8a908cc16869 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
